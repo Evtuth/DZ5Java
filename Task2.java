@@ -30,8 +30,7 @@ public class Task2 {
         Map<String, Integer> map = new TreeMap<>();           
         for(int i = 0; i < names.size(); i++){
             int count = 0;
-            for(int j = 0; j < names.size(); j++){
-                                               
+            for(int j = 0; j < names.size(); j++){                                               
                 if(names.get(i).equals(names.get(j))){
                     count++;
                     map.put(names.get(i),count);
